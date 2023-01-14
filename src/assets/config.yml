@@ -1,0 +1,156 @@
+# Homepage configuration
+# See https://fontawesome.com/icons for icons options
+
+title: "HQ"
+subtitle: "kasthack.com"
+logo: "assets/icons/icon.jpg"
+
+columns: "auto"
+#header: false
+#footer: false
+header: true
+footer: '<a href="mailto:kasthack@epicm.org" class="btn btn-link btn-lg btn-block text-muted"><i class="fas fa-envelope"></i> contact</a>' # set false if you want to hide it.
+connectivityCheck: true
+
+# Optional theme customization
+theme: dark
+colors:
+  light:
+    highlight-primary: "#3367d6"
+    highlight-secondary: "#4285f4"
+    highlight-hover: "#5a95f5"
+    background: "#131313"
+    card-background: "#2b2b2b"
+    text: "#eaeaea"
+    text-header: "#ffffff"
+    text-title: "#fafafa"
+    text-subtitle: "#f5f5f5"
+    card-shadow: rgba(0, 0, 0, 0.4)
+    link-hover: "#ffdd57"
+  dark:
+    highlight-primary: "#3367d6"
+    highlight-secondary: "#4285f4"
+    highlight-hover: "#5a95f5"
+    background: "#131313"
+    card-background: "#2b2b2b"
+    text: "#eaeaea"
+    text-header: "#ffffff"
+    text-title: "#fafafa"
+    text-subtitle: "#f5f5f5"
+    card-shadow: rgba(0, 0, 0, 0.4)
+    link-hover: "#ffdd57"
+services:
+
+  - name: "Services"
+    icon: "fas fa-robot"
+    items:
+      - name: "Zhryaca"
+        subtitle: "Pizza price tracker"
+        icon: "fa fa-pizza-slice"
+        keywords: "service food zhryaca web"
+        url: "https://zhryaca.kasthack.com"
+        target: "_blank"
+
+      - name: "Framecutter"
+        subtitle: "Template image generator for YT streams"
+        icon: "fa fa-film"
+        keywords: "media telegram youtube frame"
+        url: "https://t.me/framecutter_bot"
+        target: "_blank"
+
+      - name: "Apostle Peter"
+        subtitle: "VK janitor"
+        icon: "fa fa-handcuffs"
+        keywords: "social media vk peter evidence fbk telegram"
+        url: "https://t.me/defbk_bot"
+        target: "_blank"
+
+  - name: "Media"
+    icon: "fas fa-volume-high"
+    items:
+      - name: "Blog"
+        subtitle: "Posts go there"
+        icon: "fa fa-ghost"
+        keywords: "media blog tech"
+        url: "https://blog.kasthack.com"
+        target: "_blank"
+
+      - name: "Tech notes on telegram"
+        subtitle: "You won't believe"
+        icon: "fab fa-telegram"
+        keywords: "media blog tech telegram notes"
+        url: "https://t.me/misctechnotes"
+        target: "_blank"
+
+      - name: "Twitter"
+        subtitle: "Rants & shitposting"
+        icon: "fab fa-twitter"
+        keywords: "media blog tech twitter"
+        url: "https://twitter.com/kasthack"
+        target: "_blank"
+
+      - name: "Instagram"
+        subtitle: "Random stuff"
+        icon: "fab fa-instagram"
+        keywords: "media blog photos images"
+        url: "https://instagram.com/kasthack"
+        target: "_blank"
+
+      - name: "Web digger on telegram"
+        subtitle: "Mostly memes"
+        icon: "fab fa-telegram"
+        keywords: "media telegram photos memes"
+        url: "https://t.me/web_digger"
+        target: "_blank"
+
+  - name: "Code"
+    icon: "fas fa-code-branch"
+    items:
+      - name: "Github projects"
+        subtitle: "Public code resides here"
+        icon: "fab fa-github"
+        keywords: "repo github code source"
+        url: "https://github.com/kasthack-labs"
+        target: "_blank"
+        
+      - name: "Nuget"
+        subtitle: ".NET libraries"
+        icon: "fa fa-cube"
+        keywords: "repo nuget libraries libs"
+        url: "https://www.nuget.org/profiles/kasthack"
+        target: "_blank"
+
+      - name: "Personal github profile"
+        subtitle: "Mostly for stats"
+        icon: "fab fa-github"
+        keywords: "repo github code source"
+        url: "https://github.com/kasthack"
+        target: "_blank"
+
+      - name: "EpicMorg's github"
+        subtitle: "Collaboration"
+        icon: "fab fa-github"
+        keywords: "repo github code source"
+        url: "https://github.com/epicmorg"
+        target: "_blank"
+
+      - name: "EpicMorg's archive github"
+        subtitle: "Collaboration"
+        icon: "fab fa-github"
+        keywords: "repo github code source"
+        url: "https://github.com/epicmorgarchive"
+        target: "_blank"
+
+      - name: "Userstyles(deprecated)"
+        subtitle: "Custom stylesheets for misc sites"
+        icon: "fab fa-css3"
+        keywords: "repo github code source css"
+        url: "https://userstyles.org/users/151586"
+        target: "_blank"
+
+      - name: "Docker hub"
+        subtitle: "Public containers"
+        icon: "fab fa-css3"
+        keywords: "repo docker containers code source"
+        url: "https://hub.docker.com/u/kasthackphoenix"
+        target: "_blank"
