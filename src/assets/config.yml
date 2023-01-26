@@ -120,6 +120,13 @@ services:
         url: "https://www.nuget.org/profiles/kasthack"
         target: "_blank"
 
+      - name: "Docker hub"
+        subtitle: "Public containers"
+        icon: "fab fa-docker"
+        keywords: "repo docker containers code source"
+        url: "https://hub.docker.com/u/kasthackphoenix"
+        target: "_blank"
+
       - name: "Personal github profile"
         subtitle: "Mostly for stats"
         icon: "fab fa-github"
@@ -146,11 +153,4 @@ services:
         icon: "fab fa-css3"
         keywords: "repo github code source css"
         url: "https://userstyles.org/users/151586"
-        target: "_blank"
-
-      - name: "Docker hub"
-        subtitle: "Public containers"
-        icon: "fab fa-css3"
-        keywords: "repo docker containers code source"
-        url: "https://hub.docker.com/u/kasthackphoenix"
         target: "_blank"

@@ -14,6 +14,7 @@ services:
       - /etc/localtime:/etc/localtime:ro
       - /etc/timezone:/etc/timezone:ro
       - ./assets:/www/assets
+      - ./assets/manifest.json:/www/default-assets/manifest.json
   homer-prod:
     container_name: homer-kasthack-prod
     hostname: homer-kasthack-prod

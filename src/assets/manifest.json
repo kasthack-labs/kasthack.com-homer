@@ -1,0 +1,23 @@
+{
+    "name": "HQ / kasthack.com",
+    "short_name": "kasthack",
+    "start_url": "../",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "lang": "en",
+    "scope": "../",
+    "description": "kasthack.com services",
+    "theme_color": "#3367D6",
+    "icons": [
+        {
+            "src": "./icons/icon.jpg",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "./icons/pwa-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
